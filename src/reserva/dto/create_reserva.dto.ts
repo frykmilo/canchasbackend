@@ -2,8 +2,11 @@ import { IReserva } from "../interfaces/reserva.interface";
 
 export class CreateReservaDTO implements IReserva {
     
-    readonly precio: number;
+    readonly id?: number;
     readonly nombre: string;
-    readonly fechaReserva: String;
+    readonly email: string;
+    readonly celular: string;
+    readonly fechaReserva: string;
+    readonly horaReserva: string;
 
 }

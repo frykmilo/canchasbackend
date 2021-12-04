@@ -2,7 +2,10 @@
 export interface IReserva{
 
     readonly id?: number;
-    readonly precio: number;
     readonly nombre: string;
-    readonly fechaReserva: String;
+    readonly email: string;
+    readonly celular: string;
+    readonly fechaReserva: string;
+    readonly horaReserva: string;
+    
 }
